@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Broken fixture</title>
+  </head>
+  <body>
+    <main>
+      <h1>Fixture page with known problems</h1>
+      <!-- Horizontal overflow at every viewport up to 2000px -->
+      <div id="too-wide" style="width: 2000px; height: 40px; background: #ddd">too wide</div>
+      <!-- axe-core: image-alt -->
+      <img src="data:image/gif;base64,R0lGODlhAQABAAAAACw=" width="20" height="20" />
+    </main>
+    <script>
+      console.error('fixture console error');
+      fetch('/missing.json').catch(() => {});
+    </script>
+  </body>
+</html>

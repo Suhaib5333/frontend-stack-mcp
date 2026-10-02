@@ -1,0 +1,13 @@
+{
+  "name": "frontend-stack",
+  "version": "0.1.0",
+  "description": "Frontend design pipeline skill plus an MCP server with verify_page: Playwright screenshots, ARIA snapshot, console errors, failed requests, overflow and axe-core checks at mobile and desktop sizes.",
+  "author": {
+    "name": "Suhaib Rajab",
+    "url": "https://github.com/Suhaib5333"
+  },
+  "homepage": "https://github.com/Suhaib5333/frontend-stack-mcp",
+  "repository": "https://github.com/Suhaib5333/frontend-stack-mcp",
+  "license": "MIT",
+  "keywords": ["frontend", "design", "playwright", "accessibility", "mcp"]
+}

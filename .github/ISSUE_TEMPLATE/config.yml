@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Security issue
+    url: https://github.com/Suhaib5333/frontend-stack-mcp/security/advisories/new
+    about: Report vulnerabilities privately.
+  - name: Questions and ideas
+    url: https://github.com/Suhaib5333/frontend-stack-mcp/discussions
+    about: Ask how to use it or share ideas.

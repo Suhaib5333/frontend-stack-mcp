@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "frontend-stack": {
+      "command": "npx",
+      "args": ["-y", "github:Suhaib5333/frontend-stack-mcp"]
+    }
+  }
+}

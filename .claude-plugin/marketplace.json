@@ -1,0 +1,17 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "frontend-stack-mcp",
+  "description": "Frontend design pipeline and Playwright page verification for Claude Code.",
+  "owner": {
+    "name": "Suhaib Rajab",
+    "url": "https://github.com/Suhaib5333"
+  },
+  "plugins": [
+    {
+      "name": "frontend-stack",
+      "description": "Frontend pipeline skill plus verify_page (screenshots, ARIA snapshot, console, network, overflow, axe-core) at 390 and 1440.",
+      "source": "./",
+      "category": "development"
+    }
+  ]
+}
