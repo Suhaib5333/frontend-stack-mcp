@@ -18,11 +18,11 @@ Process and quality skills stack. **Style skills do not.** Never mix two style s
 |---|---|---|---|
 | 1 | Audit | `redesign-existing-projects` | existing UI only. Skip on greenfield. |
 | 2 | Direction | **ONE** style skill (see menu) | always. State the pick and why in one line. |
-| 3 | Taste floor | `design-taste-frontend`, `high-end-visual-design` | always. Anti-templated defaults. |
+| 3 | Taste floor | `hallmark`, `design-taste-frontend`, `high-end-visual-design`, `better-typography` | always. Anti-templated defaults: Hallmark's design flow and structure, plus a real type scale, spacing and font features. If Hallmark picks a theme or genre, that IS the phase 2 style: never add a second style skill on top. |
 | 4 | Visual ref | `imagegen-frontend-web` (web) / `imagegen-frontend-mobile` (app), then `image-to-code` | when the look matters more than the wiring. One image PER section. |
 | 5 | Motion | `gpt-taste` | scroll-driven, GSAP, or animated pages. |
 | 6 | Build | `full-output-enforcement` | always. No placeholders, no "// rest of code". |
-| 7 | Review | `web-design-guidelines`, `frontend-design` | always, before declaring done. |
+| 7 | Review | `hallmark` audit (anti-slop gates), `better-typography` review, `web-design-guidelines`, `frontend-design` | always, before declaring done. Fix every failed gate. |
 | 8 | Verify | `verify_page` tool from this server (390x844 mobile touch + 1440x900 desktop: screenshot, ARIA snapshot, console, network, overflow, axe), or Playwright MCP (`browser_navigate` → `browser_snapshot` → `browser_take_screenshot`, resize 390 + 1440) | always if it runs locally. Look at it. |
 | 9 | Perf | `web-perf` | ship-ready, or the user mentions speed or Lighthouse. |
 | 10 | Brand assets | `brandkit` | logo, identity, or brand board requested. |

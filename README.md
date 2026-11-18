@@ -170,6 +170,8 @@ The pipeline routes to these skills. Their contents are **not** included here; i
 | `web-design-guidelines` | Vercel, [vercel-labs/agent-skills](https://github.com/vercel-labs/agent-skills) | see source |
 | `frontend-design` | Anthropic, [Claude Code plugins](https://github.com/anthropics/claude-code) | see source |
 | `web-perf` | community skill | see source |
+| `hallmark` | [nutlope/hallmark](https://github.com/Nutlope/hallmark) | MIT |
+| `better-typography` | [jakubkrehel/skills](https://github.com/jakubkrehel/skills) | see source |
 
 Built on the [MCP TypeScript SDK](https://github.com/modelcontextprotocol/typescript-sdk), [Playwright](https://playwright.dev) and [axe-core](https://github.com/dequelabs/axe-core).
 

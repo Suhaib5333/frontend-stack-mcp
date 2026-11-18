@@ -5,6 +5,10 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and 
 
 ## [Unreleased]
 
+### Added
+
+- Pipeline routes to `hallmark` (taste floor + anti-slop audit) and `better-typography` (type scale, spacing, wrapping) in phases 3 and 7.
+
 ## [0.1.0] - 2026-10-02
 
 ### Added
